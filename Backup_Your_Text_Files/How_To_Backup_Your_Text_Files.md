@@ -7,6 +7,8 @@
 
 2. Create a new repository to store your files:
     ![Create a new repository to store your files](img/create-new-repo-1.png)
+
+    Use these settings:
     ![Create a new repository to store your files](img/create-new-repo-2.png)
 
 3. Copy your repo url:
@@ -46,6 +48,17 @@
     ```
     git push origin main
     ```
+    You'll be prompted for your github credentials.
+    Check your status and notice what's changed.
+    ```
+    git status
+    ```
+
+    Now go back to your browser and refresh your repo page if needed.
+    [Check your repo](https://github.com/Daniel-Perrinez/MY_TEXT_FILES)
+    ![Copy your repo url](img/check-your-repo.png)
+    Congratulations you've now backed up your text files in github!
+
 
 --- 
 
