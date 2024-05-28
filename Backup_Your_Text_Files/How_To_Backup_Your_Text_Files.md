@@ -59,14 +59,16 @@
     ![Copy your repo url](img/check-your-repo.png)
     Congratulations you've now backed up your text files in github!
 
-
 --- 
+# TL;DR
 
 This is the workflow moving forward:
+
+1. Create a branch when making changes.
 ```
 git checkout main
 git pull origin main
-git checkout -b <new-branch-name>
+git checkout -b branch_abc123
 ```
 
 Make some changes to files.
@@ -75,5 +77,17 @@ git add .
 git commit -a -m "Add update to my files"
 ```
 Commit frequently
+
+2. When ready open a code review.
+```
+git push origin branch_abc123
+```
+![Copy your repo url](img/open-pr-1.png)
+![Copy your repo url](img/open-pr-2.png)
+
+
+
+
+
 
 [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
