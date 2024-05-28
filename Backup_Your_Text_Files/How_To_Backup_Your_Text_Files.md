@@ -78,13 +78,23 @@ git commit -a -m "Add update to my files"
 ```
 Commit frequently
 
-2. When ready open a code review.
+2. When ready open a code review ("pull request").
 ```
 git push origin branch_abc123
 ```
 ![Copy your repo url](img/open-pr-1.png)
+
+Click, 'Create pull request'
 ![Copy your repo url](img/open-pr-2.png)
 
+Click, 'Merge pull request'
+![Copy your repo url](img/close-pr-1.png)
+
+Click, 'Confirm merge'
+![Copy your repo url](img/close-pr-2.png)
+
+Click, 'Delete branch' to clean up.
+![Copy your repo url](img/close-pr-3.png)
 
 
 
