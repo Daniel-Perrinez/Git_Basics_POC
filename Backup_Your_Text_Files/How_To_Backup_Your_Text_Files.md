@@ -16,9 +16,11 @@
 
 4. Open command prompt / terminal session on your workstation and
     change directory (cd) to your Desktop and clone your new repo.
+    Then cd into your repo directory
     ```
     cd ~/Desktop
     git clone https://github.com/Daniel-Perrinez/MY_TEXT_FILES.git
+    cd MY_TEXT_FILES/
     ```
 
 5. Add your files to this directory.
