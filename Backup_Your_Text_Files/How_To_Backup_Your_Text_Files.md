@@ -16,7 +16,7 @@
 
 4. Open command prompt / terminal session on your workstation and
     change directory (cd) to your Desktop and clone your new repo.
-    Then cd into your repo directory
+    Then cd into your repo directory.
     ```
     cd ~/Desktop
     git clone https://github.com/Daniel-Perrinez/MY_TEXT_FILES.git
@@ -31,7 +31,8 @@
     ```
     ![Copy your repo url](img/git-status.png)
 
-    Now 'add' your files to staging and commit them to your repository
+    Now 'add' your files to staging and commit them to your repository.
+    'git add' stages your changes for the next commit.
     ```
     git add .
     git status
@@ -39,6 +40,7 @@
     ![Copy your repo url](img/git-status.png)
 
     Now commit these files to your repository.
+    'git commit saves your changes formally as a hash object in the repository.
     ```
     git commit -a -m "backing up my text files to github"
     ```
@@ -47,6 +49,7 @@
     Great, now your files have been added to source control, but they're still not backup in the cloud yet.
 
 6. Finally push your files to github
+    This command will 'push' your local changes up to github (the centralized copy of your repository).
     ```
     git push origin main
     ```
@@ -67,6 +70,7 @@
 This is the workflow moving forward:
 
 1. Create a branch when making changes.
+We didn't create a branch in the above example but it's a best practice and should be part of your standard workflow.
 ```
 git checkout main
 git pull origin main
@@ -100,6 +104,6 @@ Click, 'Delete branch' to clean up.
 
 
 
+### [Git commands cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
-
-[Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
+### [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
