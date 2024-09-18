@@ -2,6 +2,7 @@
 A repo for demonstrating the basics of git
 Following: https://git-scm.com/book/en/v2/Git-Internals-Git-Objects
 
+
 1. Create a new git repository.
 You can do this two ways.
     ```
